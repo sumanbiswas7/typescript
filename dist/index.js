@@ -59,3 +59,11 @@ class Person {
 // const mike = new Person(999, "mike", 18);
 // mike.getId();
 // mike.setGender("male");
+// Generics
+function createArr(items) {
+    const res = [...items];
+    console.log(res);
+    return res;
+}
+const numArr = createArr([2, 3, 34]);
+const strArr = createArr(["s", "u"]);
